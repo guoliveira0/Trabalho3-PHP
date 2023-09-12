@@ -1,0 +1,13 @@
+table{
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    margin-top: -8px;
+}
+
+td {
+    border: 1px solid #ffffff;
+    border-left-width: 0;
+    min-width: 120px;
+    height: 18px;
+  }
+  
