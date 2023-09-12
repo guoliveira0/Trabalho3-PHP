@@ -1,31 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entrada</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header><h2>Entrada</h2></header>
     <main>
-       <form action="processar.php" method="get">
-       <fieldset>
-        <legend>Dados do investimento</legend>
-        <label for="client">Cliente:</label>
-        <input type="text" name="client" id="client"><br>
-        <label for="initialContribution">Aporte Inicial(R$):</label>
-        <input type="number" name="initialContribution" id="initialContribution" min=0 max=999999.99 step="0.01" title="Máximo de 999999.99"><br>
-        <label for="contribution">Aporte mensal(R$):</label>
-        <input type="number" name="contribution" id="contribution" min=0 max=999999.99 step="0.01" title="Máximo de 999999.99"><br>
-        <label for="income">Rendimento(%):</label>
-        <input type="number" name="income" id="income" min=0 max=20 step="0.01" title="Até 20%"><br>
-        <label for="period">Período(Meses):</label>
-        <input type="number" name="period" id="period" min=1 max=480 title="Entre 1 e 480"><br>
-        <input type="submit" value="Processar">
-       </fieldset>
-       </form>
+      <form action="processar.php" method="get">
+        <fieldset>
+          <legend>Dados do investimento</legend>
+          <label for="client">Cliente:</label>
+          <input type="text" name="client" id="client" /><br />
+          <label for="initialContribution">Aporte Inicial(R$):</label>
+          <input
+            type="number"
+            name="initialContribution"
+            id="initialContribution"
+            min="0"
+            max="999999.99"
+            step="0.01"
+            title="Máximo de 999999.99"
+          /><br />
+          <label for="contribution">Aporte mensal(R$):</label>
+          <input
+            type="number"
+            name="contribution"
+            id="contribution"
+            min="0"
+            max="999999.99"
+            step="0.01"
+            title="Máximo de 999999.99"
+          /><br />
+          <label for="income">Rendimento(%):</label>
+          <input
+            type="number"
+            name="income"
+            id="income"
+            min="0"
+            max="20"
+            step="0.01"
+            title="Até 20%"
+          /><br />
+          <label for="period">Período(Meses):</label>
+          <input
+            type="number"
+            name="period"
+            id="period"
+            min="1"
+            max="480"
+            title="Entre 1 e 480"
+          /><br />
+          <input type="submit" value="Processar" />
+        </fieldset>
+      </form>
     </main>
-</body>
+    <footer>
+      <p>Luiz&Fernanda&copy;-2023</p>
+    </footer>
+  </body>
 </html>

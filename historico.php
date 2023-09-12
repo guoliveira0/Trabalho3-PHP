@@ -96,6 +96,8 @@
         </table>
         <a href="index.html">Página Principal</a>
     </main>
-
+<footer>
+<p>Luiz&Fernanda&copy;-2023</p>
+</footer>
 </body>
 </html>
