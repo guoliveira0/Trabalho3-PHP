@@ -20,7 +20,7 @@
         </form>
         <?php
         error_reporting(0);
-        require_once '../class/r.class.php';
+        require_once 'class/r.class.php';
         R::setup(
             'mysql:host=127.0.0.1;dbname=fintech',
              'root', '' );

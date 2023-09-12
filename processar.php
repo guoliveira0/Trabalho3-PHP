@@ -12,7 +12,7 @@
     <main>
     <?php
     //require_once '../class/autoloader.class.php';
-    require_once '../class/r.class.php';
+    require_once 'class/r.class.php';
 
     R::setup(
         'mysql:host=127.0.0.1;dbname=fintech',

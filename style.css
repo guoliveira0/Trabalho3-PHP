@@ -2,12 +2,22 @@ table{
     border-collapse: separate;
     border-spacing: 0 12px;
     margin-top: -8px;
+    border: black thin solid;
 }
-
 td {
     border: 1px solid #ffffff;
     border-left-width: 0;
     min-width: 120px;
     height: 18px;
   }
+ 
+
+ tr:nth-child(2n +1) {
+    background-color:#fcf3f3c0;
+  }
+
+fieldset{
+    background-color: rgb(243, 233, 222);
+}
+
   
