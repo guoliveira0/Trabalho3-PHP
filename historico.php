@@ -94,6 +94,7 @@
             }
             ?>
         </table>
+        <br>
         <a href="index.html">Página Principal</a>
     </main>
 <footer>
